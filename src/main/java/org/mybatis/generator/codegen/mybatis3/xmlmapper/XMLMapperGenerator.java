@@ -57,23 +57,26 @@ public class XMLMapperGenerator extends AbstractXmlGenerator {
         addSelectByExampleWithBLOBsElement(answer);
         addSelectByExampleWithoutBLOBsElement(answer);
         addSelectByPrimaryKeyElement(answer);
+        
         addDeleteByPrimaryKeyElement(answer);
         addDeleteByExampleElement(answer);
-        addInsertElement(answer);
+        
+//        addInsertElement(answer);
         addInsertSelectiveElement(answer);
-        addInsertBatchElement(answer);
+        // 批量插入
+//        addInsertBatchElement(answer);
         addInsertBatchSelectiveElement(answer);
+        
         addCountByExampleElement(answer);
         addUpdateByExampleSelectiveElement(answer);
         addUpdateByExampleWithBLOBsElement(answer);
         addUpdateByExampleWithoutBLOBsElement(answer);
         addUpdateByPrimaryKeySelectiveElement(answer);
-        addUpdateByPrimaryKeyWithBLOBsElement(answer);
-        addUpdateByPrimaryKeyWithoutBLOBsElement(answer);
-
+//        addUpdateByPrimaryKeyWithBLOBsElement(answer);
+//        addUpdateByPrimaryKeyWithoutBLOBsElement(answer);
         // 批量更新
-        addUpdateBatchByPrimaryKeyElement(answer);
-        addUpdateBatchByPrimaryKeySelectiveElement(answer);
+//        addUpdateBatchByPrimaryKeyElement(answer);
+//        addUpdateBatchByPrimaryKeySelectiveElement(answer);
 
         addUpdateBatchByExampleElement(answer);
         addUpdateBatchByExampleSelectiveElement(answer);
